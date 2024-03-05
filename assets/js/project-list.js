@@ -45,7 +45,7 @@ const adoptar_mascota = {
     title: "Adoptar Mascota",
     video: "https://www.youtube.com/embed/ITbivnRuGAk?si=dTWaR-m4b-c-Loiq",
     description: [
-        "This project was made for as an university assingment to create a working website for a bussiness. We decided " +
+        "This project was made for as an university assignment to create a working website for a bussiness. We decided " +
         "to develop a Adoption System for users and administrators to add pets to the website and manage their info as " +
         "well as the adoption process. We used Node.js, React & Bootstrap for functionality and style."
     ]
@@ -66,7 +66,21 @@ const climbing_system = {
     ]
 }
 
+const asteroids_project = {
+    title: "Asteroids",
+    video: "https://www.youtube.com/watch?v=lbPFminmfpA",
+    link: "https://github.com/milapesa/Asteroids-Game-",
+    description: [
+        "This project is a remake of the classic game \"Asteroids\" with a fun local coop feature in game. The game was made" +
+        "using C++ and the SFML Framework for the graphics and rendering in a span of one week.",
+        "I learned how to develop a game loop from scratch and implement trigonometry to calculate the movement of the" +
+        "asteroids and the bullets. I also learned how to properly warp the actors when the go off the screen and" +
+        "how to calculate the collision between the different actors."
+    ]
+}
+
 const game_dev_projects = [
+    asteroids_project,
     climbing_system,
     adoptar_mascota,
     psychoPetting,
