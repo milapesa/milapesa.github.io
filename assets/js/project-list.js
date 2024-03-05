@@ -68,7 +68,7 @@ const climbing_system = {
 
 const asteroids_project = {
     title: "Asteroids",
-    video: "https://youtu.be/lbPFminmfpA?si=7bzfyhPhr1K4263U",
+    video: "https://www.youtube.com/embed/lbPFminmfpA?si=THszXk4kC0OsbdCX",
     link: "https://github.com/milapesa/Asteroids-Game-",
     description: [
         "This project is a remake of the classic game \"Asteroids\" with a fun local coop feature in game. The game was made" +
