@@ -53,14 +53,12 @@ const adoptar_mascota = {
 
 const climbing_system = {
     title: "Climbing System",
-    video: "https://www.youtube.com/embed/1Xgvaq0piO0?si=q1648zOMHF428qiq",
+    video: "https://www.youtube.com/embed/_HrzLZ7t0-8?si=-VqEEtnYmV03LBkE",
     description: [
-        "This project was inspired by the Netflix show \"Blue Eye Samurai\", I wanted to replicate the action of the " +
-        "show in Unreal Engine.",
         "I'm currently developing the aesthetic of the level to resemble the Japanese environment. I created a climbing " +
         "system for the character where the player can climb surfaces in all directions, hop while climbing, detect ledges, " +
         "trigger animations as well as vault through objects.",
-        "It was made using C++ and I learned how to implement animation, use control rig to adjust the hands & feet, " +
+        "It was made using C++ & Unreal Engine and I learned how to implement animation, use control rig to adjust the hands & feet, " +
         "adjust them in the Level Sequence, create montages for the different abilities, take advantage of the enhanced " +
         "input for the hop action and use multiple ray traces to iterate the different surfaces."
     ]
