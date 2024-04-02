@@ -54,6 +54,7 @@ const adoptar_mascota = {
 const climbing_system = {
     title: "Climbing System",
     video: "https://www.youtube.com/embed/_HrzLZ7t0-8?si=-VqEEtnYmV03LBkE",
+    link: "https://gitlab.com/milapesa/climbing-system",
     description: [
         "I'm currently developing the aesthetic of the level to resemble the Japanese environment. I created a climbing " +
         "system for the character where the player can climb surfaces in all directions, hop while climbing, detect ledges, " +
