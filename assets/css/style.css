@@ -1,4 +1,19 @@
-﻿
+﻿.project-title {
+    font-size: 30px;
+    font-weight: bolder;
+    color: blueviolet;
+    text-decoration: none; 
+}
+
+.link {
+    color: dodgerblue;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: mediumpurple;
+    text-decoration: underline;
+}
 .project-video {
     border-bottom: none;
 }

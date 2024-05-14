@@ -32,7 +32,7 @@ function getProjectAsHTML(project) {
     
     const projectTitle = `
         ${project.link? `<a href="${project.link}">` : ""}
-            <h3>${project.title}</h3>
+             <h3 class="project-title ${project.link ? 'link' : ''}">${project.title}</h3>
         ${project.link? `</a>` : ""}
     `;
     

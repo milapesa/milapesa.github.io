@@ -4,7 +4,7 @@
     video: "https://www.youtube.com/embed/giFF3UcmlzU",
     description: [
         "This game was made in the last Ludum Dare Jam 51 where I got the chance to work with my friends for 48 hours to " +
-        "make a fun game. The Sinopsis is: Is it a dream? Is it another planet? Is it a looped nightmare as a result of a " +
+        "make a fun game. The Synopsis is: Is it a dream? Is it another planet? Is it a looped nightmare as a result of a " +
         "bad trip? We’ll never know, what we do know is that you have to survive the terrible nights and enjoy the quiet " +
         "days while you can",
         "Implemented some abilities of the main character in single-player games using GAS. Implementation of different UI " +
@@ -45,7 +45,7 @@ const adoptar_mascota = {
     title: "Adoptar Mascota",
     video: "https://www.youtube.com/embed/ITbivnRuGAk?si=dTWaR-m4b-c-Loiq",
     description: [
-        "This project was made for as an university assignment to create a working website for a bussiness. We decided " +
+        "This project was made for as an university assignment to create a working website for a business. We decided " +
         "to develop a Adoption System for users and administrators to add pets to the website and manage their info as " +
         "well as the adoption process. We used Node.js, React & Bootstrap for functionality and style."
     ]
@@ -78,9 +78,21 @@ const asteroids_project = {
     ]
 }
 
+const skate_project = {
+    title: "Skateboarding System",
+    video: "https://www.youtube.com/embed/PfCYD-wX5YY?si=cykG2lt1OC7gv63x",
+    link: "https://gitlab.com/milapesa/skateboarding-system",
+    description: [
+        "This project is a skateboarding system where the player can control the board and perform tricks. The player" +
+        "can move the skateboarder in all directions, jump, rotate the board, and perform tricks with the board. " +
+        "I created this simulator game using C++, Unreal Engine 5 & Mixamo animations in 48 hours"
+    ]
+}
+
 const game_dev_projects = [
     asteroids_project,
     climbing_system,
+    skate_project,
     adoptar_mascota,
     psychoPetting,
     nimble_test,
@@ -88,7 +100,9 @@ const game_dev_projects = [
 ];
 
 const web_projects = [
+    asteroids_project,
     adoptar_mascota,
+    skate_project,
     climbing_system,
     psychoPetting,
     nimble_test,
@@ -101,16 +115,16 @@ const about_me_game_dev = {
     job_description: "Passion for games",
     resume: "assets/documents/Mila_Pesa_Mazzola-Game_Programmer-CV.pdf",
     description: [
-        `I’m a Game Programmer with a robust background in C++ development, 2 years of experience with Unreal Engine 4 & 5, and
-        a passion for creating new gameplay mechanics. With a proven track record, I've successfully collaborated in dynamic teams,
-        assuming roles such as Gameplay Developer, Front-End Specialist, Console Porting Expert, and Quality Assurance professional.`
+        `I’m a Game Programmer with a robust background in C++ & C# development, 3 years of experience with Unreal Engine 4 & 5, and
+        a passion for creating new gameplay mechanics, I've successfully collaborated in dynamic teams,
+        assuming roles such as Gameplay Developer, Software Developer in C++, Console Porting Programmer, and Quality Assurance Analyst.`
     ]
 }
 
 const about_me_web = {
     job_title: "Software Developer",
     resume: "assets/documents/Mila_Pesa_Mazzola-Web-CV.pdf",
-    description: [` I’m a Software Developer with a robust background in  Node, React & C++ development. With a proven
-        track record, I've successfully collaborated in dynamic  teams, assuming roles such as Front-End Specialist, Game
-        Developer, Console Porting Expert, and Quality Assurance professional`]
+    description: [` I’m a Software Developer with a robust background in C++, C#, Java & Kotlin Development. With 3 years of experience
+        and a passion for creating new systems, I've successfully collaborated in dynamic  teams, assuming roles such as Game
+        Developer, Software Developer, Console Porting Programmer, and Quality Assurance Analyst`]
 }
