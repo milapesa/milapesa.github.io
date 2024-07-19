@@ -89,17 +89,47 @@ const skate_project = {
     ]
 }
 
+const flightradar_project = {
+    title: "Travel Mobile App",
+    video: "https://www.youtube.com/embed/qUNr-KGeOk0?si=kn8tHNEPRNR840yB",
+    link: "https://github.com/lukitasmois/Parcial-TP3-Grupo-G3",
+    description: [
+        "This project was made for as an university assignment to create a working mobile app simulating an Airline Business. The app" +
+        "was developed using Kotlin, Android Studio, Glide, Rooms & Dagger for functionality and style. The app allows users to search" +
+        "and book flights, save a list of favorite locations, create the user profile and check the available offers.",
+        "The objects I worked with (Trips, Flights and Airports) have their respective models (Entity, Domain and API Models), using" +
+        "the MVVM architecture, allowing us to separate the business logic from the view and the data"
+        ]
+}
+
+const delivery_project = {
+    title: "Food Delivery Mobile App",
+    video: "https://www.youtube.com/embed/xhbAOwJ2uIA?si=hxLyY1voD5mChYoH",
+    link: "https://github.com/milapesa/Final-TP3",
+    description: [
+        "This project was made for as an university assignment to create a working mobile app simulating a Food Delivery Business. The app" +
+        "was developed using Kotlin, Android Studio, Glide, Firebase, Dagger & Okhttp for functionality and style. The app allows users to search" +
+        "restaurants by name and category, save a list of favorite food items and restaurants and refresh the feed.",
+        "The objects I worked with (Restaurants, Orders and Users) have their respective models (Entity, Domain and API Models), using" +
+        "the MVVM architecture, allowing us to separate the business logic from the view and the data. I also implemented the" +
+        "data persistence using Firebase Realtime Database and Firebase Authentication."
+        ]
+}
+
 const game_dev_projects = [
     asteroids_project,
     climbing_system,
     skate_project,
-    adoptar_mascota,
     psychoPetting,
+    flightradar_project,
+    delivery_project,
     nimble_test,
     mila_shooter
 ];
 
 const web_projects = [
+    flightradar_project,
+    delivery_project,
     asteroids_project,
     adoptar_mascota,
     skate_project,
