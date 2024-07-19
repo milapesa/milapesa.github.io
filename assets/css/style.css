@@ -5,6 +5,14 @@
     text-decoration: none; 
 }
 
+.repo-logo {
+    width: 30px; 
+    height: 30px; 
+    margin-left: 10px; 
+    vertical-align: middle; 
+    margin-bottom: 5px;
+}
+
 .link {
     color: dodgerblue;
     text-decoration: none;

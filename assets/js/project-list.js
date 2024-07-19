@@ -2,6 +2,7 @@
     title: "Psycho Petting",
     link: "https://gitlab.com/nachodlv/ld51",
     video: "https://www.youtube.com/embed/giFF3UcmlzU",
+    type: "gitlab",
     description: [
         "This game was made in the last Ludum Dare Jam 51 where I got the chance to work with my friends for 48 hours to " +
         "make a fun game. The Synopsis is: Is it a dream? Is it another planet? Is it a looped nightmare as a result of a " +
@@ -31,6 +32,7 @@ const mila_shooter = {
     title: "Mila Shooter",
     video: "https://www.youtube.com/embed/VbktyXqkxUw",
     link: "https://gitlab.com/milapesa/milasshooter",
+    type: "gitlab",
     description: [
         "This was a project I made through a course to learn the basics of unreal engine. In this first approach I " +
         "learned how collisions work, widgets, animation state machines, sound events and even behavior trees, " +
@@ -55,6 +57,7 @@ const climbing_system = {
     title: "Climbing System",
     video: "https://www.youtube.com/embed/_HrzLZ7t0-8?si=-VqEEtnYmV03LBkE",
     link: "https://gitlab.com/milapesa/climbing-system",
+    type: "gitlab",
     description: [
         "I'm currently developing the aesthetic of the level to resemble the Japanese environment. I created a climbing " +
         "system for the character where the player can climb surfaces in all directions, hop while climbing, detect ledges, " +
@@ -69,6 +72,7 @@ const asteroids_project = {
     title: "Asteroids",
     video: "https://www.youtube.com/embed/lbPFminmfpA?si=THszXk4kC0OsbdCX",
     link: "https://github.com/milapesa/Asteroids-Game-",
+    type: "github",
     description: [
         "This project is a remake of the classic game \"Asteroids\" with a fun local coop feature in game. The game was made" +
         "using C++ and the SFML Framework for the graphics and rendering in a span of one week.",
@@ -82,6 +86,7 @@ const skate_project = {
     title: "Skateboarding System",
     video: "https://www.youtube.com/embed/PfCYD-wX5YY?si=cykG2lt1OC7gv63x",
     link: "https://gitlab.com/milapesa/skateboarding-system",
+    type: "gitlab",
     description: [
         "This project is a skateboarding system where the player can control the board and perform tricks. The player" +
         "can move the skateboarder in all directions, jump, rotate the board, and perform tricks with the board. " +
@@ -93,6 +98,7 @@ const flightradar_project = {
     title: "Travel Mobile App",
     video: "https://www.youtube.com/embed/qUNr-KGeOk0?si=kn8tHNEPRNR840yB",
     link: "https://github.com/lukitasmois/Parcial-TP3-Grupo-G3",
+    type: "github",
     description: [
         "This project was made for as an university assignment to create a working mobile app simulating an Airline Business. The app" +
         "was developed using Kotlin, Android Studio, Glide, Rooms & Dagger for functionality and style. The app allows users to search" +
@@ -106,6 +112,7 @@ const delivery_project = {
     title: "Food Delivery Mobile App",
     video: "https://www.youtube.com/embed/xhbAOwJ2uIA?si=hxLyY1voD5mChYoH",
     link: "https://github.com/milapesa/Final-TP3",
+    type: "github",
     description: [
         "This project was made for as an university assignment to create a working mobile app simulating a Food Delivery Business. The app" +
         "was developed using Kotlin, Android Studio, Glide, Firebase, Dagger & Okhttp for functionality and style. The app allows users to search" +

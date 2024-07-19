@@ -30,11 +30,18 @@ function getProjectVideoAsHTML(project) {
 }
 function getProjectAsHTML(project) {
     
+    //instead of the project title having the link, add a picture of the github logo next to the title and link that to the repo
     const projectTitle = `
-        ${project.link? `<a href="${project.link}">` : ""}
-             <h3 class="project-title ${project.link ? 'link' : ''}">${project.title}</h3>
-        ${project.link? `</a>` : ""}
-    `;
+    <h3 class="project-title ${project.link ? 'link' : ''}">
+        ${project.title}
+        ${project.link ? `
+            <a href="${project.link}" target="_blank">
+                <img src="${project.type === 'github' ? 'images/github.png' : 'images/gitlab.png'}" 
+                     alt="${project.type === 'github' ? 'GitHub' : 'GitLab'}" 
+                     class="repo-logo">
+            </a>` : ""}
+    </h3>
+`;
     
     let paragraphs = "";
     for (let paragraph of project.description) {
