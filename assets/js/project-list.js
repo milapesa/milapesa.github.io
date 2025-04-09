@@ -152,7 +152,7 @@ const about_me_game_dev = {
     job_description: "Passion for games",
     resume: "assets/documents/Mila_Pesa_Mazzola-Game_Programmer-CV.pdf",
     description: [
-        `I’m a Game Programmer with a robust background in C++ & C# development, 3 years of experience with Unreal Engine 4 & 5, and
+        `I’m a Game Programmer with a robust background in C++ & C# development, 5 years of experience with Unreal Engine 4 & 5, and
         a passion for creating new gameplay mechanics, I've successfully collaborated in dynamic teams,
         assuming roles such as Gameplay Developer, Software Developer in C++, Console Porting Programmer, and Quality Assurance Analyst.`
     ]
@@ -161,7 +161,7 @@ const about_me_game_dev = {
 const about_me_web = {
     job_title: "Software Developer",
     resume: "assets/documents/Mila_Pesa_Mazzola-Web-CV.pdf",
-    description: [` I’m a Software Developer with a robust background in C++, C#, Java & Kotlin Development. With 3 years of experience
+    description: [` I’m a Software Developer with a robust background in C++, C#, Java & Kotlin Development. With 5 years of experience
         and a passion for creating new systems, I've successfully collaborated in dynamic  teams, assuming roles such as Game
         Developer, Software Developer, Console Porting Programmer, and Quality Assurance Analyst`]
 }
